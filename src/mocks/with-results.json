@@ -1,0 +1,76 @@
+{
+"Search": [
+{
+"Title": "Kill Bill: Vol. 1",
+"Year": "2003",
+"imdbID": "tt0266697",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_SX300.jpg"
+},
+{
+"Title": "Kill Bill: Vol. 2",
+"Year": "2004",
+"imdbID": "tt0378194",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BY2FiNzhiZTctNzU1Mi00NDkwLWExNDMtZTg0MjYyNzhkNWNkXkEyXkFqcGc@._V1_SX300.jpg"
+},
+{
+"Title": "Kill Bill: The Whole Bloody Affair",
+"Year": "2006",
+"imdbID": "tt6019206",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BZDQ5N2U5Y2QtMzA4Ny00MTBiLTg4NzUtNTFjMjNkMDg1MGI4XkEyXkFqcGc@._V1_SX300.jpg"
+},
+{
+"Title": "The Making of 'Kill Bill'",
+"Year": "2003",
+"imdbID": "tt0412956",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BZWU3YzRhMmEtNWJlYy00ZmExLWI5YjktODRmMzE3ODVkMmJmXkEyXkFqcGc@._V1_SX300.jpg"
+},
+{
+"Title": "Bill Burr Presents: Friends Who Kill",
+"Year": "2022",
+"imdbID": "tt20723672",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BYjNjMzJlZjctODQ1Ny00MDUxLWIzN2MtYjcxMDU3NDk3N2IxXkEyXkFqcGc@._V1_SX300.jpg"
+},
+{
+"Title": "The Making of 'Kill Bill: Volume 2'",
+"Year": "2004",
+"imdbID": "tt0422704",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BZmRhZGU5YjMtOGFjNi00NDk2LWE2OWQtMGQ2OTU5YTE0MTU1XkEyXkFqcGc@._V1_SX300.jpg"
+},
+{
+"Title": "Everything Is a Remix: Kill Bill",
+"Year": "2011",
+"imdbID": "tt3496980",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BZGY0MzdiYzgtNjgzMy00NmM4LThkODYtNjg5MzU4MWI3ZmMxXkEyXkFqcGc@._V1_SX300.jpg"
+},
+{
+"Title": "Kill Bill: Origins",
+"Year": "2010",
+"imdbID": "tt5046230",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BMmMzNzQ3OGUtMmQzMi00NjY5LWJkNzQtMTZiNDgxODNiNWMyXkEyXkFqcGdeQXVyNjkyMTM0ODY@._V1_SX300.jpg"
+},
+{
+"Title": "Kill Bill: Vol. 1 - Remake",
+"Year": "2012",
+"imdbID": "tt6023976",
+"Type": "movie",
+"Poster": "https://m.media-amazon.com/images/M/MV5BZTA3MWYxY2MtNjJkMC00ODcwLWE3M2ItNGNhMDFiNGE4OGNkXkEyXkFqcGdeQXVyMzI4Nzk0NjY@._V1_SX300.jpg"
+},
+{
+"Title": "Kill Bill: Vol. 2 - Remake",
+"Year": "2012",
+"imdbID": "tt6025704",
+"Type": "movie",
+"Poster": "N/A"
+}
+],
+"totalResults": "19",
+"Response": "True"
+}
