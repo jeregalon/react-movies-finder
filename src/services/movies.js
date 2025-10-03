@@ -7,7 +7,7 @@ export const searchMovies = async (search) => {
         const res = await fetch(SEARCH_LINK)
         const json = await res.json()
         
-         const mappedMovies = json.Search?.map(movie => ({
+        const mappedMovies = json.Search?.map(movie => ({
             id: movie.imdbID,
             title: movie.Title,
             year: movie.Year,

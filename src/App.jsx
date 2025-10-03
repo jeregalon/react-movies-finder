@@ -4,35 +4,40 @@ import { useMovies } from './hooks/useMovies'
 
 function App() {
 
+  const [sort, setSort] = useState(false)
   const [search, updateSearch] = useState('')
-  const { movies, getMovies } = useMovies({ search })
+  const { movies, getMovies, loading, error } = useMovies({ search, sort })
 
   const handleSubmit = (event) => { 
     event.preventDefault()
     getMovies()
   }
 
-  const handleChange = (event) => { // forma controlada // muy lento (se recomienda evitarla)
+  const handleSort = () => {
+    setSort(!sort)
+  }
+
+  const handleChange = (event) => {
     updateSearch(event.target.value)
   }
-  
-
-  // useEffect(() =>{
-  //   console.log(mappedMovies)
-  // }, [mappedMovies])
 
   return (
     <div className='flex flex-col items-center mt-10'>
       <header className='p-2'>
         <h1 className='text-lg'>Buscador de películas</h1>
-        <form className='' onSubmit={handleSubmit}>
+        <form className='flex items-center' onSubmit={handleSubmit}>
           <input
-            // ref={inputRef} 
             name='query'
-            value={search}  // forma controlada
+            value={search}
             onChange={handleChange}
             placeholder='Avengers, Star Wars, The Matrix...' 
           />
+          <input 
+            type='checkbox'
+            className='ml-5'
+            onChange={handleSort}
+          />
+          <p className='ml-2'>Ordenar por año</p>
           <button 
             type='submit'
             onClick={() => {}}
