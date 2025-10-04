@@ -1,6 +1,6 @@
 const API_KEY = '6067a8bf'
 
-export const searchMovies = async (search) => {
+export const searchMovies = async ({ search }) => {
     const SEARCH_LINK = `http://omdbapi.com/?apikey=${API_KEY}&s=${search}`
     if (search === '') return null
 
