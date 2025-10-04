@@ -49,7 +49,11 @@ function App() {
       </header>
 
       <main>
-        <Movies movies={movies}/>
+        <Movies 
+          movies={movies}
+          loading={loading}
+          error={error}
+        />
       </main>
     </div>
   )

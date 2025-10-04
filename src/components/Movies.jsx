@@ -20,11 +20,16 @@ function NoMoviesResult() {
     )
 }
 
-export function Movies({ movies }) {
+export function Movies({ movies, loading, error }) {
     const hasMovies = movies?.length > 0
     return(
-        hasMovies
-            ? <ListOfMovies movies={movies} />
-            : <NoMoviesResult />
+        <>
+            {loading && <p>Cargando</p>}
+            {error}
+            {!loading && !error && hasMovies &&  <ListOfMovies movies={movies}/>}
+            {!loading && !error && !hasMovies &&  <NoMoviesResult />}
+        </>
+        
+        
     )
 }
